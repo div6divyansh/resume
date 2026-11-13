@@ -1,0 +1,141 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #eee9df;
+    color: #393333;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #443447;
+    color: #f4eee4;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+header p {
+    color: #d7c5b7;
+    font-size: 16px;
+}
+
+header img {
+    border-radius: 50%;
+    border: 4px solid #b9a58c;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    background-color: #78816b;
+    text-align: center;
+    padding: 17px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e9c6a5;
+    text-decoration: underline;
+}
+
+/* MAIN CONTAINER */
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* CONTENT SECTIONS */
+
+section {
+    background-color: #faf7f0;
+    padding: 25px;
+    margin: 25px 0;
+    border: 1px solid #d8cec0;
+    border-radius: 5px;
+}
+
+/* SECTION HEADINGS */
+
+h2 {
+    color: #594354;
+    border-bottom: 2px solid #b4775c;
+    padding-bottom: 10px;
+}
+
+/* EDUCATION TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cfc4b4;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #78816b;
+    color: white;
+}
+
+td {
+    background-color: #f5f0e7;
+}
+
+/* LISTS */
+
+li {
+    margin: 12px;
+}
+
+/* LINKS */
+
+a {
+    color: #795548;
+}
+
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 94%;
+    }
+
+    nav a {
+        display: block;
+        margin: 12px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+}
